@@ -1,0 +1,36 @@
+1.Nombre Pins:	->De 8 à ~100bits
+		->Assignations possibles
+		->tension/courant/terminaisons
+		->performances et complexités
+
+2.Clock:	->Frequence, de ~10MHz à 60MHz à 1GHz
+		->Type, interne/externe
+		->Freq. pippenible -> gerer la puissance -> calcul/consomation
+		->PLL
+
+3.ADC		->nombre bits (resolution) -> de ~8 à 12bits
+		->nombre channels (nombre inputs analogiques connectables) ->30
+		->performances timing
+		
+4.Timer/Counter	->nombre de timers
+		->nombre de bits
+		->diversité -> LOWEnergy
+		->mode	-> compacteur/PWM/capture	*CCP / ECCP
+			-> option (halfbridge)
+
+5.PWM		->nombre bits (resolution)
+
+6.Mémoire	->taille
+		->type ->Flash/RAM
+
+7.JTAG		->debug ->norme IEEE
+
+8.Bus de comm	->nombre
+  LLD		->interdependance
+
+9.PowerManag	->puissance	->Alimentation -> 1.0V à 3.3V à 5V
+				->Courant	->Actif: 0,4mA ~ 1mW
+						->PowerDamp: 0,1µA ~ 1µW
+						->Sleep: 20nA ~ 10nW
+
+Ordre d'importance: 1. GPIO 2. TIMER
