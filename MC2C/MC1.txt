@@ -1,0 +1,9 @@
+﻿Gaz: pv = Rt
+
+Liquide: F(p, v, t)=0 	-> v = v(p,t)
+			->dv = σv/σt|p dt + σv/σp|t dp
+
+-->Les 2 dérivées sont des leviers de changements,  ils sont elevés alors des petits changents de
+température / pression influenceront grandement le volume
+
+masse volumique de l'eau = 1000kg/m³ , air ~= 1.2kg/m³; connaitre, raapport de 800 entre les deux

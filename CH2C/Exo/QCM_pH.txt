@@ -1,0 +1,147 @@
+ceci compte pour environ 1/3 de l'exam !!!
+
+1. Un acide faible
+
+	*réagit partiellement sur l'eau
+	*est un donneur de protons
+
+	-(FAUX) est une espèce dont le pH est proche de 7,00
+	-(FAUX) réagit totalement sur l'eau
+
+
+2. Plus la constante d'acidité Ka d'un couple acide-base est grande
+
+	*plus l'acide du couple a tendence à réagir faciement avec l'eau
+	*moins la base du couple a tendence à réagir faciement avec l'eau
+
+	-(FAUX) moins l'acide du couple a tendence à réagir faciement avec l'eau
+	-(FAUX) plus la base du couple a tendence à réagir faciement avec l'eau
+
+3. Une solution d'acide acétique de concentration 1,00.10-2 M a un pH
+
+	*supérieur à celui d'une solution d'acide chlorhydrique de même concentration
+
+	-(FAUX) égal à 2,00
+	-(FAUX) égal à celui d'une solution d'acide chlorhydrique de même concentration
+	-(FAUX) inferieur à celui d'une solution d'acide chlorhydrique de même concentration
+
+	->pH = 3,37 car:
+
+	    |CH3COOH + H2O <=> CH3COO- + H3O+
+	i   | 10^-2               /        / 
+	éq  | 10^-2 - x           x        x
+
+	-> Ka = [CH3COO-][H3O+] / [CH3COOH] = x*x / (10^-2 - x)
+	-> hypothèse: x << 10^-2 M
+	-> x = sqrt(Ka.10^-2) = 4,24.10^-4 ->hypothèse verifié
+	-> [H3O+] = sqrt(Ka * c0)
+	-> pH = 0.5 (pKa - log c0)  (Ka / c0 <= 0,01)
+
+4. Si le Ka d'un couple HA/A- est de 2,3.10-2 alors le pKa vaut
+
+	*1,64
+
+	-(FAUX) ???
+	-(FAUX) ???
+	-(FAUX) ???
+	
+	->pKa = -log(2,3.10-2) = 1,64
+
+5. A 25°C, le pH d'une solution de chlorure d'hydrogène de concentration C0 = 1,00.10^-3 M
+
+	*est de 3,00
+	*se calcule par la formule pH=-log(C0)
+	*est acide
+
+	-(FAUX) est proche de la neutralité (possible pour un acide fort mais pas le cas ici)
+
+6. A 25°C, le pH d'une solution de chlorure d'hydrogène de concentration C0 = 1,00.10^-7 M
+
+	*est proche de la neutralité
+
+	-(FAUX) est de 7,00
+	-(FAUX) se calcule par la formule pH = -log(C0)
+	-(FAUX) est fortement acide
+
+	     |   HCl + H20 --> H3O+ Cl-
+	i    | 10^-3
+	f    | 0
+
+7. A 25°C, le pH d'une solution d'hydroxyde de sodium de concentration C0 = 1,00.10^-3 M
+	
+	*est de 11,00
+	*se calcule avec le formule pH = 14 + log (c0)
+	*est basique
+	
+	-(FAUX) est proche de la neutralité
+
+	     |  NaOH --> Na+ + OH-
+	i    | 10^-3      /     /
+	f    |   /     10^-3  10^-3
+
+	-> [OH-] = 10^-3 -> pOH = 3,00 -> pH = 11,00
+	
+
+8. A 25°C, le pH d'une solution d'hydroxyde de sodium de concentration C0 = 1,00.10^-7 M
+
+	*est proche de la neutralité
+
+	-(FAUX) est de 7,00
+	-(FAUX) se calcule par la formule pH = 14 + log (c0)
+	-(FAUX) est fortement basique
+
+	-> base forte, pH = 7,21: un peu plus basiquque neutre absolut
+
+9. On peut calculer le pH d'une solution d'acide faible
+	
+	*si on connait la concentration en ion hydronium 	[H3O+]
+	*si on connait la concentration en base conjugée 	[CH3COO-]
+	*si on connait la concentration en ions hydroxyde	[OH-]
+
+	-(FAUX) si on connait le Ka de l'acide faible
+
+10. Une solution d'acide faible de pKa 4,81 et de concentration 1,00.10^-2 M
+	
+	*a un pH de 3,41
+	*a une concentration en base conjugée de 0,394 mM
+	*se calcule par la formule pH= 0,5* (pKa - log(c0))
+
+	-(FAUX) a un pH de 2,00
+
+11. A 25°C, le pH d'une solution d'acide acétique de concentration 5,80.10^-2 M (pKa = 4,76)
+
+	*est de 3,00
+	*se calcule par la formule pH = 0,5 (pKa - log(c0))
+
+	-(FAUX) est de 1,24
+
+12. A 25°C, le pH d'une solution d'acide formique de concentration 1,00.10^-4 M (pKa = 3,80) *base faible
+
+	*est de 4,16
+
+	-(FAUX) est de 3,90
+	-(FAUX) se calculepar la formule pH = 0,5 (pKa - log(c0))
+	-(FAUX) est fortement acide
+
+	    |  HCOOH + H2O <=> HCOO- + H30+
+	i   |  10^-4             /      /
+	f   |  10^-4 - x         x      x
+
+	-> Ka = x² / (10^-4 - x)
+	-> x = 1,26 * 10^-4 -> x est trop grand donc calcul complet
+	-> x = 6,99.10^-5
+	-> pH = 4,16
+
+13. A 25°C, le pH d'une solution d'ammoniac (NH3) de concentration 6,00.10^-2 M (pKa = 4,75)
+
+	*est de 11,01
+	*a une cencentration en acide conjugé de 1,03 mM
+	*peut se calculer par la formule pH = 7 + 05 (pKa + log (c0))
+
+	-(FAUX) se calcule par la formule pH = 14 + log (c0)
+
+	     |   NH3 + H2O <=> NH4+ + OH-
+	i    |  6,00.10^-2      /      /
+	f    |  ^ - x           x      x
+
+	-> Kb = [NH4+][OH-] / [NH3] = x² / (6.10^-2) //approximation valide
